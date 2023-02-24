@@ -3,7 +3,7 @@ a simple game, pixels plane , written in vhdl
 
 seg_con.vhd and vga.vhd : control Segment Displays and the vga output.
 
-div.vhd : a 10Hz divider.(or 2Hz? I forget it)
+div.vhd : a 10Hz divider.(or 2Hz? I forget it)/2Hz because it counts 25M rising edges.
 
 p_enemy.vhd and pixel_plane : use 01 array to discribe enemies and your plane with buttle.
 
